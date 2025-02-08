@@ -8,7 +8,7 @@ const nameMinLength = 5;
 
 const isValidName = userName.length >= nameMinLength;
 const isValidPassword =
-  /([A-Z]|[à-ü]|[À-Ü])/.test(password) &&
+  /([A-Z]|[À-Ü])/.test(password) &&
   /[0-9]/.test(password) &&
   password.length >= 8;
 const isValidRepeatPassword = password === repeatPassword;
