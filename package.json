@@ -1,7 +1,7 @@
 {
-  "name": "launch-starter",
+  "name": "r1-user-validation",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "js/index.js",
   "type": "module",
   "scripts": {
     "start": "node ."
